@@ -1,6 +1,6 @@
 import logging
 
-def get_logger(name: str = None) -> logging.Logger:
+def getLogger(name: str = None) -> logging.Logger:
     """
     Creates and confiurates a logger with own default settings
     """
