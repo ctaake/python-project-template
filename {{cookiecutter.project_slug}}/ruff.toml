@@ -1,0 +1,33 @@
+line-length = 120
+select = [
+    "ANN",
+    "D",
+    "COM812",
+    "DTZ",
+    "FIX",
+    "ISC",
+    "ICN",
+    "LOG",
+    "T20",
+    "Q",
+    "RSE",
+    "RET",
+    "SIM",
+    "TID",
+    "ARG",
+    "PTH",
+    "PD",
+    "N",
+    "E",
+    "W",
+    "F",
+
+    ]
+ignore = [
+    "D212",
+    "D413",
+    "D100",
+    "D104",
+    "PTH123",
+    "W605",
+    ]

@@ -1,0 +1,25 @@
+# Virtual envs
+.env
+.venv/
+env/
+venv/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*.pyc
+
+# VS Code settings
+.vscode/settings.json
+
+# Build folders
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Test coverage / results
+.coverage
+htmlcov/

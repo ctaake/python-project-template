@@ -1,0 +1,15 @@
+# Projekt-Metadaten
+[project]
+name = "{{ cookiecutter.project_slug }}"
+version = "0.1.0"
+description = ""
+authors = [
+  { name = "{{ cookiecutter.author_name }}", email = "{{ cookiecutter.email }}" }
+]
+readme = "README.md"
+requires-python = ">={{ cookiecutter.python_version }}"
+license = { text = "MIT" }
+# Build-System
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
