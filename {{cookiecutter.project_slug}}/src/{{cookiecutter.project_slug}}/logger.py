@@ -1,9 +1,7 @@
 import logging
 
-def getLogger(name: str = None) -> logging.Logger:
-    """
-    Creates and confiurates a logger with own default settings
-    """
+def get_logger(name: str = None) -> logging.Logger:
+    """Creates and confiurates a logger with own default settings."""
     logger = logging.getLogger(name)
     if not logger.hasHandlers():  # Avoids multiple handlers
         handler = logging.StreamHandler()
